@@ -1,0 +1,19 @@
+{
+  "name": "kafka-tutorial-node.js-producer-and-consumer",
+  "version": "1.0.0",
+  "description": "Simple consumer producer node app using Kafka with Docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilviuManea/Kafka-Tutorial-Node.js-Producer-and-Consumer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SilviuManea/Kafka-Tutorial-Node.js-Producer-and-Consumer/issues"
+  },
+  "homepage": "https://github.com/SilviuManea/Kafka-Tutorial-Node.js-Producer-and-Consumer#readme"
+}
