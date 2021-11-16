@@ -36,3 +36,11 @@ sudo docker exec -it kafka /opt/bitnami/kafka/bin/kafka-topics.sh \
 
 - `npm i node-rdkafka --save` - necessary kafka dependency
 - `npm i avsc --save` - necessary dependency if we put objects into the stream , not necessary if we put only plain text
+
+## Source information and reference
+
+https://github.com/kriscfoster/node-kafka-producer-consumer
+
+and
+
+https://www.youtube.com/watch?v=EiDLKECLcZw
