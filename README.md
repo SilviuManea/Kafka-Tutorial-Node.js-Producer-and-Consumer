@@ -16,3 +16,7 @@ A kafka producer/consumer proof of concept using node.
 - `./scripts/create-topic.sh` - creates kafka topic.
 - `npm run start:producer` - starts producer.
 - `npm run start:consumer` - starts consumer
+
+## Issues
+
+- `docker-compose up` - if you have issues building the docker container use it with sudo.(might need to install docker compose first)
