@@ -20,3 +20,14 @@ A kafka producer/consumer proof of concept using node.
 ## Issues
 
 - `docker-compose up` - if you have issues building the docker container use it with sudo.(might need to install docker compose first)
+
+## Scripts
+
+- To create a Topic execute -
+
+sudo docker exec -it kafka /opt/bitnami/kafka/bin/kafka-topics.sh \
+ --create \
+ --bootstrap-server localhost:9092 \
+ --replication-factor 1 \
+ --partitions 1 \
+ --topic test
